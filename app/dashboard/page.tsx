@@ -967,7 +967,7 @@ export default function DashboardPage() {
                           Copy it now — this full key won&apos;t be shown again.
                         </p>
                         <div className="mt-1.5 flex items-center gap-2 rounded-xl bg-amber-50 border border-amber-100 px-3 py-2.5">
-                          <code className="flex-1 min-w-0 truncate text-xs text-background">
+                          <code className="flex-1 min-w-0 truncate text-xs text-secondary/90">
                             {revealed[k.id] ? k.key : "•".repeat(24)}
                           </code>
                           <button
